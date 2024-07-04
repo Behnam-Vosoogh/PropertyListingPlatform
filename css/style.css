@@ -432,3 +432,138 @@ header ul.is-sticky li a.active {
   text-decoration: underline;
 }
 /* end: services styles */
+
+/* start: testimonials styles */
+#testimonials {
+  margin-bottom: 8rem;
+}
+
+#testimonials h2 {
+  text-align: center;
+}
+
+#testimonials-slider .slick-slide {
+  text-align: center;
+}
+
+#testimonials-slider blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 1rem auto 3rem;
+  max-width: 740px;
+}
+
+#testimonials-slider .testimonials-caption {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#testimonials-slider .testimonials-caption img {
+  float: left;
+  border-radius: 30px;
+  width: 60px;
+}
+
+.testimonials-caption p {
+  position: relative;
+  top: 13px;
+  font-size: 1.2rem;
+}
+
+#testimonials-slider .slick-arrow {
+  text-decoration: none;
+  position: absolute;
+  font-size: 40px;
+  color: #222;
+  top: 50%;
+  margin-top: -35px;
+  z-index: 1;
+}
+#testimonials-slider .slick-next {
+  right: 0;
+}
+/* end: testimonials styles */
+
+/* start: contact us styles */
+#contact {
+  background: #f8f9fa;
+  padding: 4rem 0 8rem;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#form-container {
+  width: 58%;
+  background: #fff;
+  padding: 3rem;
+  box-sizing: border-box;
+  height: 0%;
+}
+
+#form-container h3 {
+  color: #000;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 2rem;
+}
+
+#form-container label {
+  display: block;
+  color: #000;
+  margin-top: 1rem;
+}
+
+#form-container input,
+#form-container textarea {
+  display: block;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  width: 100%;
+  box-sizing: border-box;
+  height: 43px;
+  font-family: "Roboto", "Helvetica", "Sans-serif";
+  font-size: 1rem;
+  color: #495057;
+}
+
+#form-container textarea {
+  height: 170px;
+  margin-bottom: 2rem;
+  resize: none;
+}
+
+#address-container {
+  width: 38%;
+  background: #fff;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  height: 0%;
+}
+
+#address-container label {
+  font-weight: 700;
+  display: block;
+  margin-top: 2rem;
+}
+
+#address-container label:first-child {
+  margin-top: 0;
+}
+
+#address-container address {
+  margin-bottom: 1.5rem;
+  font-style: normal;
+}
+
+#address-container a {
+  text-decoration: none;
+  color: #f69314;
+}
+
+#address-container a:hover {
+  text-decoration: underline;
+}
+/* end: contact us styles */
